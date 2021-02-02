@@ -11,6 +11,8 @@ kubectl apply -f config/bundle.yaml
 ```
 > Note: it is default to install into the namespace `kubesphere-logging-system`
 
+Or install it  by [helm chart](./helm/README.md).
+
 # Usage
 Suppose you want to inject the log sidecar into your workloads in the namespace `default`:
 
